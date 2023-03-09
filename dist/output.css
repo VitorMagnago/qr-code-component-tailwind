@@ -638,3 +638,9 @@ video {
   --tw-text-opacity: 1;
   color: rgb(125 136 158 / var(--tw-text-opacity));
 }
+
+.shadow-\[0_25px_25px_rgba\(0\2c 0\2c 0\2c 0\.0476518\)\] {
+  --tw-shadow: 0 25px 25px rgba(0,0,0,0.0476518);
+  --tw-shadow-colored: 0 25px 25px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
