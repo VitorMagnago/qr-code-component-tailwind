@@ -587,11 +587,32 @@ video {
   font-size: 1.375rem;
 }
 
+.text-\[\.9375rem\] {
+  font-size: .9375rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.leading-\[27\.72px\] {
+  line-height: 27.72px;
+}
+
+.leading-\[19px\] {
+  line-height: 19px;
 }
 
 .text-Navy-dark {
   --tw-text-opacity: 1;
   color: rgb(31 49 79 / var(--tw-text-opacity));
+}
+
+.text-grey-font {
+  --tw-text-opacity: 1;
+  color: rgb(125 136 158 / var(--tw-text-opacity));
 }
